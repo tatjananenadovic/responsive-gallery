@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<meta-charset utf-8>
+<html>
+<head>
+	<title>gallery</title>
+
+</head>
+<style>
+	body {
+    color: grey;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    border-radius: 10px;
+    background-color: #7abaf5; 
+    margin: 15px 0;
+    flex-basis: 17%;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box p {
+    color: grey;
+    background-color: #f5f4f4;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .box {
+        flex-basis: 30%;
+    }
+}
+    
+@media screen and (max-width: 414px) {
+    .box {
+        flex-basis: 100%;
+    }
+}
+
+</style>
+	<body>
+
+         <h2>Gallery Heading</h2>
+        <div id="main">
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+        </p>
+
+
+</body>
+</html>
